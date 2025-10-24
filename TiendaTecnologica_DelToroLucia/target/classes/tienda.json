@@ -1,0 +1,290 @@
+{
+  "nombre": "Tienda Tecnológica",
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Electrónica",
+      "productos": [
+        {
+          "id": 101,
+          "nombre": "Smartphone",
+          "precio": 999.99,
+          "descripcion": "El último smartphone del mercado.",
+          "caracteristicas": {
+            "pantalla": "6.5 pulgadas",
+            "camara": "48 MP",
+            "bateria": "4500 mAh"
+          },
+          "inventario": 10
+        },
+        {
+          "id": 102,
+          "nombre": "Tablet",
+          "precio": 499.99,
+          "descripcion": "Tablet de alto rendimiento para trabajo y entretenimiento.",
+          "caracteristicas": {
+            "pantalla": "10 pulgadas",
+            "bateria": "7000 mAh",
+            "almacenamiento": "128 GB"
+          },
+          "inventario": 5
+        },
+        {
+          "id": 103,
+          "nombre": "Smartwatch",
+          "precio": 199.99,
+          "descripcion": "Reloj inteligente con monitor de ritmo cardíaco y GPS.",
+          "caracteristicas": {
+            "pantalla": "1.5 pulgadas",
+            "bateria": "300 mAh",
+            "resistenciaAgua": "IP68"
+          },
+          "inventario": 8
+        },
+        {
+          "id": 104,
+          "nombre": "Cámara Digital",
+          "precio": 799.99,
+          "descripcion": "Cámara profesional con lente intercambiable.",
+          "caracteristicas": {
+            "resolucion": "24.2 MP",
+            "zoomOptico": "10x",
+            "pantalla": "3 pulgadas"
+          },
+          "inventario": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Informática",
+      "productos": [
+        {
+          "id": 201,
+          "nombre": "Portátil",
+          "precio": 1199.99,
+          "descripcion": "Portátil ultraligero con procesador i7 y 16 GB de RAM.",
+          "caracteristicas": {
+            "pantalla": "14 pulgadas",
+            "procesador": "Intel Core i7",
+            "ram": "16 GB"
+          },
+          "inventario": 6
+        },
+        {
+          "id": 202,
+          "nombre": "Monitor 27\"",
+          "precio": 299.99,
+          "descripcion": "Monitor QHD de 27 pulgadas con panel IPS.",
+          "caracteristicas": {
+            "resolucion": "2560x1440",
+            "tipoPanel": "IPS",
+            "tasaRefresco": "75 Hz"
+          },
+          "inventario": 10
+        },
+        {
+          "id": 203,
+          "nombre": "Teclado Mecánico",
+          "precio": 89.99,
+          "descripcion": "Teclado mecánico retroiluminado con switches rojos.",
+          "caracteristicas": {
+            "tipoSwitch": "Rojo",
+            "conectividad": "USB",
+            "iluminacion": "RGB"
+          },
+          "inventario": 20
+        },
+        {
+          "id": 204,
+          "nombre": "Ratón Inalámbrico",
+          "precio": 49.99,
+          "descripcion": "Ratón ergonómico con sensor óptico de alta precisión.",
+          "caracteristicas": {
+            "dpi": "16000",
+            "conectividad": "Bluetooth",
+            "peso": "90 g"
+          },
+          "inventario": 25
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Accesorios",
+      "productos": [
+        {
+          "id": 301,
+          "nombre": "Auriculares Inalámbricos",
+          "precio": 79.99,
+          "descripcion": "Auriculares con cancelación de ruido.",
+          "caracteristicas": {
+            "autonomia": "10 horas",
+            "conectividad": "Bluetooth 5.0"
+          },
+          "inventario": 15
+        },
+        {
+          "id": 302,
+          "nombre": "Cargador Rápido",
+          "precio": 29.99,
+          "descripcion": "Cargador USB-C de carga rápida de 65W.",
+          "caracteristicas": {
+            "potencia": "65W",
+            "compatibilidad": "USB-C"
+          },
+          "inventario": 20
+        },
+        {
+          "id": 303,
+          "nombre": "Funda para Smartphone",
+          "precio": 19.99,
+          "descripcion": "Funda protectora de silicona resistente a caídas.",
+          "caracteristicas": {
+            "material": "Silicona",
+            "color": "Negro"
+          },
+          "inventario": 50
+        },
+        {
+          "id": 304,
+          "nombre": "Power Bank",
+          "precio": 39.99,
+          "descripcion": "Batería externa de 20.000 mAh con carga rápida.",
+          "caracteristicas": {
+            "capacidad": "20000 mAh",
+            "puertos": "USB-A y USB-C"
+          },
+          "inventario": 12
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juanperez@example.com",
+      "direccion": {
+        "calle": "Calle Principal",
+        "numero": 123,
+        "ciudad": "Madrid",
+        "pais": "España"
+      },
+      "historialCompras": [
+        {
+          "compraId": 1,
+          "productoId": 101,
+          "cantidad": 2,
+          "fecha": "2023-11-14"
+        },
+        {
+          "compraId": 2,
+          "productoId": 201,
+          "cantidad": 1,
+          "fecha": "2024-02-05"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "María López",
+      "email": "marialopez@example.com",
+      "direccion": {
+        "calle": "Avenida del Sol",
+        "numero": 45,
+        "ciudad": "Barcelona",
+        "pais": "España"
+      },
+      "historialCompras": [
+        {
+          "compraId": 3,
+          "productoId": 103,
+          "cantidad": 1,
+          "fecha": "2024-03-12"
+        },
+        {
+          "compraId": 4,
+          "productoId": 301,
+          "cantidad": 2,
+          "fecha": "2024-04-18"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos García",
+      "email": "carlosgarcia@example.com",
+      "direccion": {
+        "calle": "Calle de la Tecnología",
+        "numero": 99,
+        "ciudad": "Valencia",
+        "pais": "España"
+      },
+      "historialCompras": [
+        {
+          "compraId": 5,
+          "productoId": 202,
+          "cantidad": 1,
+          "fecha": "2024-05-10"
+        },
+        {
+          "compraId": 6,
+          "productoId": 204,
+          "cantidad": 1,
+          "fecha": "2024-06-01"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Laura Fernández",
+      "email": "laurafernandez@example.com",
+      "direccion": {
+        "calle": "Camino Real",
+        "numero": 12,
+        "ciudad": "Sevilla",
+        "pais": "España"
+      },
+      "historialCompras": [
+        {
+          "compraId": 7,
+          "productoId": 104,
+          "cantidad": 1,
+          "fecha": "2024-07-22"
+        },
+        {
+          "compraId": 8,
+          "productoId": 304,
+          "cantidad": 1,
+          "fecha": "2024-08-15"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Ana Torres",
+      "email": "anatorres@example.com",
+      "direccion": {
+        "calle": "Gran Vía",
+        "numero": 67,
+        "ciudad": "Bilbao",
+        "pais": "España"
+      },
+      "historialCompras": [
+        {
+          "compraId": 9,
+          "productoId": 203,
+          "cantidad": 1,
+          "fecha": "2024-09-01"
+        },
+        {
+          "compraId": 10,
+          "productoId": 302,
+          "cantidad": 1,
+          "fecha": "2024-09-30"
+        }
+      ]
+    }
+  ]
+}
